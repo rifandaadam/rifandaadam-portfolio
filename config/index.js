@@ -1,7 +1,7 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@meoki",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
+  siteTitle: "Gatsby Portfolio Minimal",
   siteShortTitle: "Blog Của Sáng", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "A modern one-page portfolio with a clean yet expressive design.",
