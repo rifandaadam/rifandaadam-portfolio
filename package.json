@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-minimal",
+  "name": "Blog of Meoki",
   "description": "A clean, one-page portfolio using MDX",
   "version": "1.0.0",
-  "author": "Konstantin Münster <mail@konstantin.digital>",
+  "author": "Hoang Dinh Sang <meoki@gsu.vn>",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
@@ -53,6 +53,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "gatsby-plugin-eslint": "^2.0.8",
+    "gh-pages": "^3.1.0",
     "husky": "^4.3.5",
     "lint-staged": "^10.5.3",
     "netlify-plugin-cypress": "^1.4.1",
@@ -74,6 +75,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop --port 9000",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|graphql|md|mdx)\"",
     "lint": "eslint .",
     "start": "npm run develop",
@@ -91,9 +93,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal"
+    "url": "https://github.com/meokisama/meokisama.github.io"
   },
   "bugs": {
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal/issues"
+    "url": "https://github.com/meokisama/meokisama.github.io/issues"
   }
 }
