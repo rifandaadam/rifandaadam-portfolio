@@ -1,6 +1,6 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
+  author: "@meoki",
   siteTitle: "Gatsby Starter Portfolio Minimal",
   siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
   siteDescription:
@@ -55,21 +55,21 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      name: "Facebook",
+      url: "https://www.facebook.com/slytherinnn",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      name: "Twitter",
+      url: "https://twitter.com/meokiiii",
     },
     {
       name: "Github",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+        "https://github.com/meokisama",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Instagram",
+      url: "https://www.instagram.com/hi.im.meoki/",
     },
   ],
 
