@@ -7,7 +7,7 @@ module.exports = {
     "A modern one-page portfolio with a clean yet expressive design.",
   siteUrl: "https://meokisama.github.io",
   siteLanguage: "en_US",
-  siteIcon: "content/naruto.ico", // Relative to gatsby-config file
+  siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Portfolio của Sáng", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
