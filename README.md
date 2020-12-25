@@ -15,7 +15,7 @@ If you want to use this as your personal blog/portfolio, I will show you how. Ok
 
 ---
 
-<img src="screenshot.png" alt="Gatsby Starter Portfolio Minimal Screenshot" width="600" />
+<img src="screenshot.png" width="600" />
 
 ---
 
