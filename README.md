@@ -1,18 +1,15 @@
-# Gatsby Starter Portfolio Minimal
+# Sáng's Portfolio Minimal
 
 #### A modern one-page portfolio with a clean yet expressive design.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/16b36180-0897-40c5-925c-fefa0232555c/deploy-status)](https://app.netlify.com/sites/gatsby-starter-portfolio-minimal/deploys)
 
-Portfolio Minimal is a Gatsby Starter. Starters are boilerplate projects that can be used to set up new sites effortless. With this starter, you can create a modern one-page portfolio within minutes.
+A revolution in UI upgraded for my blog. I choose a minimal design, simple but very awesome.
 
-Just install the starter, add your content, and there you go!
+If you want to use this as your personal blog/portfolio, I will show you how. Ok let's start!
 
 <a href="#sections">Sections</a> · <a href="#features">Features</a> · <a href="#how-to-start">How to Start</a> · <a href="#edit-content">Edit Content</a> · <a href="#edit-theme">Edit Theme</a> · <a href="#edit-page-structure">Edit Page Structure</a> · <a href="#feedback">Feedback</a>
 
-<a href="https://gatsby-starter-portfolio-minimal.netlify.app/" target="_blank"><strong>>> LIVE DEMO</strong></a>
-
-<a href="https://konstantin.digital/" target="_blank"><strong>>> LIVE DEMO (with Splash Screen)</strong></a>
 
 **New Features:** 🌛 Dark Mode · 🪟 Splash Screen
 
@@ -62,7 +59,7 @@ The starter is designed with a mobile-first approach and looks perfect on small 
 
 In case you are a writer on Medium, the starter has a easy to use Medium integration that allows you to feature your latest articles.
 
-To see all features in action, have a look at the <a href="https://gatsby-starter-portfolio-minimal.netlify.app/" target="_blank"><strong>live demo</strong></a>.
+To see all features in action, have a look at the <a href="https://gatsby-starter-portfolio-minimal.netlify.app/" target="_blank"><strong>live demo</strong></a>.Just install the starter, add your content, and there you go!
 
 ---
 
@@ -153,15 +150,13 @@ If you want to add your own custom sections, there is a section template you can
 
 ---
 
-## Feedback
-
-Designing and building a portfolio from scratch can be tough. To inspire you and provide you a foundation to build upon, I've decided to publish [my personal website](https://konstantin.digital) as a Gatsby Starter. This boilerplate project should motivate you to build your own awesome portfolio with Gatsby.
-
-I always appreciate feedback, so share your thoughts and suggestions with me: [mail@konstantin.digital](mailto:mail@konstantin.digital)
-
-If you find any bugs or have feature suggestions, create a new issue or pull request 🙏
-
-Thanks a lot for using this starter! 💪
+## Find me around the web 🌎:
+<a href="https://facebook.com/slytherinnn/"><img align="left" width="150" height="150" src="https://github.com/meokisama/meokisama/blob/master/image/2750554.png"> </a>
+- Information in public on <a href="https://meokisama.github.io/">__Blog__</a> ✍🏾
+- Sharing updates on <a href="https://facebook.com/slytherinnn/">__Facebook__</a> 💼
+- Other products on <a href="https://www.behance.net/meokisama">__Behance__</a> 🏓
+- Daily photos on <a href="https://www.instagram.com/hi.im.meoki/">__Instagram__</a> 📷
+- "Wibu" collection on <a href="https://www.flickr.com/photos/meokisama/albums">__Flickr__</a> 👾\
 
 ---
 
