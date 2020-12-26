@@ -59,7 +59,7 @@ The starter is designed with a mobile-first approach and looks perfect on small 
 
 In case you are a writer on Medium, the starter has a easy to use Medium integration that allows you to feature your latest articles.
 
-To see all features in action, have a look at the <a href="https://gatsby-starter-portfolio-minimal.netlify.app/" target="_blank"><strong>live demo</strong></a>.Just install the starter, add your content, and there you go!
+To see all features in action, have a look at the <a href="https://meokisama.github.io/" target="_blank"><strong>live demo</strong></a>.Just install the starter, add your content, and there you go!
 
 ---
 
