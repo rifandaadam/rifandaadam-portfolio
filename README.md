@@ -1,9 +1,18 @@
-# Sáng's Portfolio Minimal
+<p align="center">
+  <a href="https://meokisama.github.io">
+    <img src="content/favicon.png" />
+  </a>
+</p>
 
-#### A modern one-page portfolio with a clean yet expressive design.
+<h1 align="center"> Sáng's Portfolio Minimal </h1>
+
+<h3 align="center"> A modern one-page portfolio with a clean yet expressive design. </h3>
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/16b36180-0897-40c5-925c-fefa0232555c/deploy-status)](https://app.netlify.com/sites/gatsby-starter-portfolio-minimal/deploys)
-
+<a href="https://twitter.com/intent/follow?screen_name=meokiiii">
+    <img src="https://img.shields.io/twitter/follow/meokiiii.svg?label=Follow%20@meokiiii"/>
+</a><br>\
 A revolution in UI upgraded for my blog. I choose a minimal design, simple but very awesome.
 
 If you want to use this as your personal blog/portfolio, I will show you how. Ok let's start!
