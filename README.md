@@ -139,7 +139,7 @@ You find all content in the content folder (surprisingly). For content integrati
 
 To get up and running, just edit the predefined data fields in each `mdx` file.
 
----
+--- 
 
 ## Edit Theme
 
