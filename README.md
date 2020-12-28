@@ -92,13 +92,13 @@ With Portfolio Minimal, you get up and running in just a few minutes.
 2. **Create a new Gatsby site with the Portfolio Minimal starter.**
 
    ```
-   gatsby new portfolio-minimal https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal
+   git clone https://github.com/meokisama/meokisama.github.io.git
    ```
 
 3. **Start the site in `develop` mode.**
 
    ```
-   cd portfolio-minimal
+   cd meokisama.github.io
    gatsby develop
    ```
 
