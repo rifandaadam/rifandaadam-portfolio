@@ -91,7 +91,7 @@ export const pageQuery = graphql`
   {
     imprint: allMdx(filter: { fileAbsolutePath: { regex: "/imprint/" } }) {
       edges {
-        node {
+        node { 
           body
           frontmatter {
             title
