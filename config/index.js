@@ -52,7 +52,7 @@ module.exports = {
 
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
-  // Medium, GitHub, LinkedIn, XING, Behance
+  // Facebook, Twitter, Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
       name: "Facebook",
