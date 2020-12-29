@@ -67,8 +67,8 @@ module.exports = {
       url: "https://github.com/meokisama",
     },
     {
-      name: "Instagram",
-      url: "https://www.instagram.com/hi.im.meoki/",
+      name: "Behance",
+      url: "https://www.behance.net/meokisama",
     },
   ],
 
