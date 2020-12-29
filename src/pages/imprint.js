@@ -87,7 +87,6 @@ Imprint.propTypes = {
 
 export default Imprint
 
-
 export const pageQuery = graphql`
   {
     imprint: allMdx(filter: { fileAbsolutePath: { regex: "/imprint/" } }) {
