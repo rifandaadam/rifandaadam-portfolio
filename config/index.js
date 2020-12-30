@@ -50,6 +50,11 @@ module.exports = {
 
   shownArticles: 3,
 
+  // Similar to the Arrticle above
+  nyaaTorrent:
+    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fnyaa.si%2F%3Fpage%3Drss",
+  shownTorrent: 3,
+
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
   // Facebook, Twitter, Medium, GitHub, LinkedIn, XING, Behance
