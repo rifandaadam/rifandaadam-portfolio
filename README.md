@@ -70,9 +70,9 @@ The starter includes predefined sections as well as a template for new, custom s
 
 The starter is designed with a mobile-first approach and looks perfect on small and large breakpoints. Moreover, it has some nice and smooth animations.
 
-#### <img src="http://logok.org/wp-content/uploads/2015/10/Medium-logo-old.png" alt="Medium Icon" width="20" /> Medium Integration - Features latest articles.
+#### <img src="http://logok.org/wp-content/uploads/2015/10/Medium-logo-old.png" alt="Medium Icon" width="20" /> RSS Newsfeed - Features latest articles.
 
-In case you are a writer on Medium, the starter has a easy to use Medium integration that allows you to feature your latest articles.
+In case you want to follow some articles with RSS, the starter has a easy to RSS feed that allows you to feature your latest articles.
 
 To see all features in action, have a look at the <a href="https://meokisama.github.io/" target="_blank"><strong>live demo</strong></a>.Just install the starter, add your content, and there you go!
 
@@ -180,3 +180,18 @@ If you want to add your own custom sections, there is a section template you can
 Distributed under the [MIT](http://showalicense.com/?fullname=Konstantin+M%C3%BCnster&year=2019#license-mit) license.
 
 See `LICENSE` for more information.
+
+## Changelog
+#### [Version 1.2.2] - 6/1/2021
+- Effects now smoother
+- Add more E2E Test
+#### [Version 1.2.1] - 17/11/2020
+- Fix some f*cking bug
+#### [Version 1.2.0] - 16/11/2020
+- Add more RSS feed _(Now we have __2__)_
+#### [Version 1.1.0] - 3/11/2020
+- Update more platform icons \
+_(Behance, Github, Medium, Linkedin, Xing, __Facebook, Twitter__)_
+
+#### [Version 1.0.1] - 28/10/2020
+- Fix some bugs
