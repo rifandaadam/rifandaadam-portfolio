@@ -23,7 +23,8 @@ A revolution in UI upgraded for my blog. I choose a minimal design, simple but v
 
 If you want to use this as your personal blog/portfolio, I will show you how. Ok let's start!
 
-<a href="#sections">Sections</a> · <a href="#features">Features</a> · <a href="#how-to-start">How to Start</a> · <a href="#edit-content">Edit Content</a> · <a href="#edit-theme">Edit Theme</a> · <a href="#edit-page-structure">Edit Page Structure</a> · <a href="#feedback">Feedback</a>
+### Menu
+<a href="#sections">Sections</a> · <a href="#features">Features</a> · <a href="#how-to-start">How to Start</a> · <a href="#edit-content">Edit Content</a> · <a href="#edit-theme">Edit Theme</a> · <a href="#edit-page-structure">Edit Page Structure</a>
 
 
 **New Features:** 🌛 Dark Mode · 🪟 Splash Screen
@@ -31,7 +32,7 @@ If you want to use this as your personal blog/portfolio, I will show you how. Ok
 
 <img src="screenshot.png" width="600" />
 
-
+---
 ## Sections
 
 The starter has predefined sections as well as a template that you can use to create new, custom sections.
