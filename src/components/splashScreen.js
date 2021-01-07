@@ -48,7 +48,8 @@ const SplashScreen = () => {
   useEffect(() => {
     const sequence = async () => {
       await backgroundControls.start({ opacity: 1 })
-      await backdropControls.start({ height: "0%", transition: { delay: 0.8 } })
+      await backdropControls.start({ opacity: 0, transition: { delay: 0.8 } })
+      // await backdropControls.start({ height: "0%", transition: { delay: 0.8 } })
       await backgroundControls.start({ opacity: 0, transition: { delay: 0.6 } })
       setState({ ...state, isIntroDone: true })
     }
