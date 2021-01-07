@@ -19,20 +19,23 @@
   </a>
 </p>
 
+## About
+
 A revolution in UI upgraded for my blog. I choose a minimal design, simple but very awesome.
 
 If you want to use this as your personal blog/portfolio, I will show you how. Ok let's start!
 
-### Menu
+## Menu
 <a href="#sections">Sections</a> · <a href="#features">Features</a> · <a href="#how-to-start">How to Start</a> · <a href="#edit-content">Edit Content</a> · <a href="#edit-theme">Edit Theme</a> · <a href="#edit-page-structure">Edit Page Structure</a>
-
 
 **New Features:** 🌛 Dark Mode · 🪟 Splash Screen
 
+## Demo
 
-<img src="screenshot.png" width="600" />
+<p align="center"> <a href="https://meokisama.github.io/"><strong> CLICK HERE </strong></a></p>
 
----
+<p align="center"> <img src="screenshot.png" width="600" /> </p>
+
 ## Sections
 
 The starter has predefined sections as well as a template that you can use to create new, custom sections.
@@ -68,7 +71,7 @@ The starter includes predefined sections as well as a template for new, custom s
 
 The starter is designed with a mobile-first approach and looks perfect on small and large breakpoints. Moreover, it has some nice and smooth animations.
 
-#### <img src="http://logok.org/wp-content/uploads/2015/10/Medium-logo-old.png" alt="Medium Icon" width="20" /> RSS Newsfeed - Features latest articles.
+#### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Generic_Feed-icon.svg/1024px-Generic_Feed-icon.svg.png" alt="RSS Icon" width="15" /> RSS Newsfeed - Features latest articles.
 
 In case you want to follow some articles with RSS, the starter has a easy to RSS feed that allows you to feature your latest articles.
 
