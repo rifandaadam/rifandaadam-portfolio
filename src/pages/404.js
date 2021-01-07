@@ -38,13 +38,17 @@ const NotFoundPage = () => {
     <GlobalStateProvider initialState={globalState}>
       <Layout>
         <SEO
-          title="404: Not found"
+          title="Page Not Found"
           meta={[{ name: "robots", content: "noindex" }]}
         />
         <StyledSection>
           <StyledContentWrapper>
-            <h1 data-testid="heading">NOT FOUND</h1>
-            <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+            <h1 data-testid="heading">CÁI QUÁI GÌ ĐÂY?</h1>
+            {/* <p>You just hit a route that doesn&#39;t exist... the sadness.</p> */}
+            <p>
+              Tôi năm nay gần 20 tuổi rồi mà tôi chưa gặp cái site này bao giờ…
+              the sadness. Cậu thử xem lại đường link đúng chưa nhaa. Thân!
+            </p>
           </StyledContentWrapper>
         </StyledSection>
       </Layout>
