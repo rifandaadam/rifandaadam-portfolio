@@ -19,20 +19,22 @@
   </a>
 </p>
 
+## About
+
 A revolution in UI upgraded for my blog. I choose a minimal design, simple but very awesome.
 
 If you want to use this as your personal blog/portfolio, I will show you how. Ok let's start!
 
-<a href="#sections">Sections</a> · <a href="#features">Features</a> · <a href="#how-to-start">How to Start</a> · <a href="#edit-content">Edit Content</a> · <a href="#edit-theme">Edit Theme</a> · <a href="#edit-page-structure">Edit Page Structure</a> · <a href="#feedback">Feedback</a>
-
+## Menu
+<a href="#sections">Sections</a> · <a href="#features">Features</a> · <a href="#how-to-start">How to Start</a> · <a href="#edit-content">Edit Content</a> · <a href="#edit-theme">Edit Theme</a> · <a href="#edit-page-structure">Edit Page Structure</a>
 
 **New Features:** 🌛 Dark Mode · 🪟 Splash Screen
 
----
+## Demo
 
-<img src="screenshot.png" width="600" />
+<p align="center"> <a href="https://meokisama.github.io/"><strong> CLICK HERE </strong></a></p>
 
----
+<p align="center"> <img src="screenshot.png" width="600" /> </p>
 
 ## Sections
 
@@ -46,7 +48,6 @@ The starter has predefined sections as well as a template that you can use to cr
 4. Contact me
 5. Medium articles
 
----
 
 ## Features
 
@@ -70,13 +71,12 @@ The starter includes predefined sections as well as a template for new, custom s
 
 The starter is designed with a mobile-first approach and looks perfect on small and large breakpoints. Moreover, it has some nice and smooth animations.
 
-#### <img src="http://logok.org/wp-content/uploads/2015/10/Medium-logo-old.png" alt="Medium Icon" width="20" /> RSS Newsfeed - Features latest articles.
+#### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Generic_Feed-icon.svg/1024px-Generic_Feed-icon.svg.png" alt="RSS Icon" width="15" /> RSS Newsfeed - Features latest articles.
 
 In case you want to follow some articles with RSS, the starter has a easy to RSS feed that allows you to feature your latest articles.
 
 To see all features in action, have a look at the <a href="https://meokisama.github.io/" target="_blank"><strong>live demo</strong></a>.Just install the starter, add your content, and there you go!
 
----
 
 ## How to Start
 
@@ -104,7 +104,6 @@ With Portfolio Minimal, you get up and running in just a few minutes.
 
 4. **Open the source code and start editing!**
 
----
 
 ## Edit Content
 
@@ -139,7 +138,6 @@ You find all content in the content folder (surprisingly). For content integrati
 
 To get up and running, just edit the predefined data fields in each `mdx` file.
 
---- 
 
 ## Edit Theme
 
@@ -147,7 +145,6 @@ You find the color and font settings in the configuration file, located at: `con
 
 > Note: The usage of the splash screen can be set for each page individually in the page content directory.
 
----
 
 ## Edit Page Structure
 
@@ -163,7 +160,6 @@ Each section (besides the Articles section) exists of an imported React componen
 
 If you want to add your own custom sections, there is a section template you can use. You can find it in the following directory: `src/components/templates`
 
----
 
 ## Find me around the web 🌎:
 <a href="https://facebook.com/slytherinnn/"><img align="left" width="150" height="150" src="https://github.com/meokisama/meokisama/blob/master/image/2750554.png"> </a>
@@ -173,7 +169,6 @@ If you want to add your own custom sections, there is a section template you can
 - Daily photos on <a href="https://www.instagram.com/hi.im.meoki/">__Instagram__</a> 📷
 - "Wibu" collection on <a href="https://www.flickr.com/photos/meokisama/albums">__Flickr__</a> 👾\
 
----
 
 ## License
 
