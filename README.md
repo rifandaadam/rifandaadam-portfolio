@@ -8,7 +8,6 @@
 
 <h3 align="center"> A modern one-page portfolio with a clean yet expressive design. </h3>
 
-
 <p align="center">
   <a href="https://github.com/meokisama/meokisama.github.io/blob/develop/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
@@ -26,6 +25,7 @@ A revolution in UI upgraded for my blog. I choose a minimal design, simple but v
 If you want to use this as your personal blog/portfolio, I will show you how. Ok let's start!
 
 ## Menu
+
 <a href="#sections">Sections</a> · <a href="#features">Features</a> · <a href="#how-to-start">How to Start</a> · <a href="#edit-content">Edit Content</a> · <a href="#edit-theme">Edit Theme</a> · <a href="#edit-page-structure">Edit Page Structure</a>
 
 **New Features:** 🌛 Dark Mode · 🪟 Splash Screen
@@ -47,7 +47,6 @@ The starter has predefined sections as well as a template that you can use to cr
 3. Projects
 4. Contact me
 5. Medium articles
-
 
 ## Features
 
@@ -77,7 +76,6 @@ In case you want to follow some articles with RSS, the starter has a easy to RSS
 
 To see all features in action, have a look at the <a href="https://meokisama.github.io/" target="_blank"><strong>live demo</strong></a>.Just install the starter, add your content, and there you go!
 
-
 ## How to Start
 
 With Portfolio Minimal, you get up and running in just a few minutes.
@@ -95,15 +93,22 @@ With Portfolio Minimal, you get up and running in just a few minutes.
    git clone https://github.com/meokisama/meokisama.github.io.git
    ```
 
-3. **Start the site in `develop` mode.**
+3. **Install dependencies.**
 
    ```
    cd meokisama.github.io
+   npm install
+   ```
+
+4. **Start the site in `develop` mode.**
+
+   ```
    gatsby develop
    ```
 
-4. **Open the source code and start editing!**
+5. **Open the source code and start editing!**
 
+   Good luck!
 
 ## Edit Content
 
@@ -138,13 +143,11 @@ You find all content in the content folder (surprisingly). For content integrati
 
 To get up and running, just edit the predefined data fields in each `mdx` file.
 
-
 ## Edit Theme
 
 You find the color and font settings in the configuration file, located at: `config/index.js`.
 
 > Note: The usage of the splash screen can be set for each page individually in the page content directory.
-
 
 ## Edit Page Structure
 
@@ -160,15 +163,15 @@ Each section (besides the Articles section) exists of an imported React componen
 
 If you want to add your own custom sections, there is a section template you can use. You can find it in the following directory: `src/components/templates`
 
-
 ## Find me around the web 🌎:
-<a href="https://facebook.com/slytherinnn/"><img align="left" width="150" height="150" src="https://github.com/meokisama/meokisama/blob/master/image/2750554.png"> </a>
-- Information in public on <a href="https://meokisama.github.io/">__Blog__</a> ✍🏾
-- Sharing updates on <a href="https://facebook.com/slytherinnn/">__Facebook__</a> 💼
-- Other products on <a href="https://www.behance.net/meokisama">__Behance__</a> 🏓
-- Daily photos on <a href="https://www.instagram.com/hi.im.meoki/">__Instagram__</a> 📷
-- "Wibu" collection on <a href="https://www.flickr.com/photos/meokisama/albums">__Flickr__</a> 👾\
 
+<a href="https://facebook.com/slytherinnn/"><img align="left" width="150" height="150" src="https://github.com/meokisama/meokisama/blob/master/image/2750554.png"> </a>
+
+- Information in public on <a href="https://meokisama.github.io/">**Blog**</a> ✍🏾
+- Sharing updates on <a href="https://facebook.com/slytherinnn/">**Facebook**</a> 💼
+- Other products on <a href="https://www.behance.net/meokisama">**Behance**</a> 🏓
+- Daily photos on <a href="https://www.instagram.com/hi.im.meoki/">**Instagram**</a> 📷
+- "Wibu" collection on <a href="https://www.flickr.com/photos/meokisama/albums">**Flickr**</a> 👾\
 
 ## License
 
@@ -177,16 +180,25 @@ Distributed under the [MIT](http://showalicense.com/?fullname=Konstantin+M%C3%BC
 See `LICENSE` for more information.
 
 ## Changelog
+
 #### [Version 1.2.2] - 6/1/2021
+
 - Effects now smoother
 - Add more E2E Test
+
 #### [Version 1.2.1] - 17/11/2020
-- Fix some f*cking bug
+
+- Fix some f\*cking bug
+
 #### [Version 1.2.0] - 16/11/2020
-- Add more RSS feed _(Now we have __2__)_
+
+- Add more RSS feed _(Now we have **2**)_
+
 #### [Version 1.1.0] - 3/11/2020
+
 - Update more platform icons \
-_(Behance, Github, Medium, Linkedin, Xing, __Facebook, Twitter__)_
+  _(Behance, Github, Medium, Linkedin, Xing, **Facebook, Twitter**)_
 
 #### [Version 1.0.1] - 28/10/2020
+
 - Fix some bugs
