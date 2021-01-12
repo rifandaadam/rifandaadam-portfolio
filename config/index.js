@@ -55,6 +55,11 @@ module.exports = {
     "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fotakukart.com%2Fentertainment%2Fanime%2Ffeed%2F",
   shownTorrent: 3,
 
+  // Tech side
+  techRss:
+    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftopdev.vn%2Fblog%2Fcategory%2Flap-trinh%2Ffeed",
+  shownPost: 3,
+
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
   // Facebook, Twitter, Medium, GitHub, LinkedIn, XING, Behance
