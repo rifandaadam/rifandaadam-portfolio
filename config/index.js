@@ -47,13 +47,7 @@ module.exports = {
   mediumRssFeed:
     "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.animenewsnetwork.com%2Fnews%2Frss.xml%3Fann-edition%3Dsea",
   // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
-
   shownArticles: 3,
-
-  // Similar to the Arrticle above
-  nyaaTorrent:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fotakukart.com%2Fentertainment%2Fanime%2Ffeed%2F",
-  shownTorrent: 3,
 
   // Tech side
   techRss:
