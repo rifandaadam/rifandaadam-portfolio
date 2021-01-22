@@ -220,7 +220,7 @@ const Projects = ({ content }) => {
     }
   }
   const pVariants = {
-    hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0 },
   }
 
@@ -283,6 +283,7 @@ const Projects = ({ content }) => {
                   animate={
                     onScreen[frontmatter.position] ? "visible" : "hidden"
                   }
+                  transition={{ duration: 0.5 }}
                 >
                   <div className="details">
                     <div className="category">

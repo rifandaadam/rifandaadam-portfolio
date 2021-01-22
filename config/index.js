@@ -2,7 +2,7 @@ module.exports = {
   //-- SITE SETTINGS -----
   author: "@meoki",
   siteTitle: "Gatsby Portfolio Minimal",
-  siteShortTitle: "Sáng The Meoki", // Used as logo text in header, footer, and splash screen
+  siteShortTitle: "meoki.", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "A modern one-page portfolio with a clean yet expressive design.",
   siteUrl: "https://meokisama.github.io",

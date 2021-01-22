@@ -90,8 +90,9 @@ const About = ({ content }) => {
         <motion.div
           className="inner-wrapper"
           ref={tRef}
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 40 }}
           animate={tControls}
+          transition={{ duration: 0.5 }}
         >
           <h3 className="section-title">{frontmatter.title}</h3>
           <div className="text-content">
@@ -101,8 +102,9 @@ const About = ({ content }) => {
         <motion.div
           className="image-content"
           ref={iRef}
-          initial={{ opacity: 0, x: 20 }}
+          initial={{ opacity: 0, x: 40 }}
           animate={iControls}
+          transition={{ duration: 0.5 }}
         >
           <Img
             className="about-author"

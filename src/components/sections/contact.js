@@ -66,7 +66,7 @@ const Contact = ({ content }) => {
   const ref = useRef()
   const onScreen = useOnScreen(ref)
   const variants = {
-    hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0 },
   }
 
@@ -76,6 +76,7 @@ const Contact = ({ content }) => {
       ref={ref}
       variants={variants}
       animate={onScreen ? "visible" : "hidden"}
+      transition={{ duration: 0.5 }}
     >
       <StyledContentWrapper>
         <h3>{frontmatter.title}</h3>
