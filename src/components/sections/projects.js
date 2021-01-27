@@ -187,11 +187,11 @@ const StyledProject = styled(motion.div)`
     max-width: 25rem;
     height: 15rem;
     border-radius: ${({ theme }) => theme.borderRadius};
-    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.26);
     transition: all 0.3s ease-out;
     &:hover {
       transform: translate3d(0px, -0.25rem, 0px);
-      box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.32);
+      box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.52);
     }
     @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
       height: 18.75rem;
