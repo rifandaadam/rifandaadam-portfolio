@@ -91,10 +91,14 @@ module.exports = {
         name: "Projects",
         url: "/#projects",
       },
+      {
+        name: "Contact",
+        url: "/#contact",
+      },
     ],
     button: {
-      name: "Contact",
-      url: "/#contact",
+      name: "Blog",
+      url: "/blog",
     },
   },
   footerLinks: [
