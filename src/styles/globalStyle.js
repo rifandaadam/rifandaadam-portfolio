@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 import modernNormalize from "styled-modern-normalize"
+import scrollBar from "../styles/scrollbar.style"
 
 const GlobalStyle = createGlobalStyle`
     
@@ -95,6 +96,10 @@ const GlobalStyle = createGlobalStyle`
         border-width: .05rem;
         color: ${({ theme }) => theme.colors.tertiary};
         opacity: 0.1;
+      }
+
+    @media all and (min-width: 450px) {
+        ${scrollBar};
       }
 
 `

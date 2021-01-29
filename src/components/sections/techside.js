@@ -150,7 +150,7 @@ const Techside = () => {
       animate={articlesControls}
     >
       <StyledContentWrapper>
-        <h3 className="section-title">Techside with Topdev</h3>
+        <h3 className="section-title">Techside</h3>
         <div className="articles">
           {articles
             ? articles.map(item => (
