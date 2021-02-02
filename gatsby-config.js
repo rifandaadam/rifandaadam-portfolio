@@ -41,7 +41,7 @@ module.exports = {
         background_color: colors.lightTheme.background,
         theme_color: colors.lightTheme.primary,
         display: `minimal-ui`,
-        icon: siteIcon,  // This path is relative to the root of the site.
+        icon: siteIcon, // This path is relative to the root of the site.
       },
     },
     {
@@ -57,6 +57,13 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/json`,
       },
     },
     {
