@@ -1,10 +1,12 @@
 // SECTION TEMPLATE
 // If you want to add more sections to your page, you can use this component as a template
 import { useStaticQuery, graphql } from "gatsby"
-import React, { useRef } from "react"
+import React, { useRef, useEffect } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import { motion } from "framer-motion"
+import Img from "gatsby-image"
+import { motion, useAnimation } from "framer-motion"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import ContentWrapper from "../../styles/contentWrapper"
 import { useOnScreen } from "../../hooks"
@@ -21,7 +23,7 @@ const StyledSection = styled.section`
     display: block;
     text-align: center;
     margin: 2rem auto;
-    padding-top: 4rem;
+    padding-top: 6rem;
     @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
       margin: 0 auto;
     }
@@ -36,10 +38,30 @@ const StyledContentWrapper = styled(ContentWrapper)`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    .descrip {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .inner-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    }
     .text-content {
       width: 100%;
       max-width: 31.25rem;
       margin-bottom: 0rem;
+    }
+    .fixspace {
+      margin-bottom: 0rem;
+      font-size: 2rem;
     }
     .title {
       margin-top: 3.625rem;
@@ -48,12 +70,36 @@ const StyledContentWrapper = styled(ContentWrapper)`
       line-height: 1.625rem;
       font-weight: 700;
     }
+    .image-content {
+      width: 100%;
+      max-width: 18rem;
+      margin-top: 2rem;
+      margin-left: 0;
+      @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+        margin-left: 2rem;
+      }
+    }
+    // .about-author {
+    //   border-radius: ${({ theme }) => theme.borderRadius};
+    //   box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
+    //   filter: grayscale(20%) contrast(1) brightness(90%);
+    //   transition: all 0.3s ease-out;
+    //   &:hover {
+    //     filter: grayscale(50%) contrast(1) brightness(90%);
+    //     transform: translate3d(0px, -0.125rem, 0px);
+    //     box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.32);
+    //   }
+    // }
   }
 `
 
 // Add more styled components here
 
-const CreativeCoding = () => {
+const CreativeCoding = ({ content }) => {
+  const { frontmatter, body } = content[0].node
+  const tControls = useAnimation()
+  const iControls = useAnimation()
+
   const creativecoding = useStaticQuery(
     graphql`
       query {
@@ -74,23 +120,58 @@ const CreativeCoding = () => {
     `
   )
 
+  // Required for animating the text content
+  const tRef = useRef()
+  const tOnScreen = useOnScreen(tRef)
+
+  // Required for animating the image
+  const iRef = useRef()
+  const iOnScreen = useOnScreen(iRef)
+
+  // Required for animating the button
   const bRef = useRef()
   const bOnScreen = useOnScreen(bRef)
   const bVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
   }
-  // const sectionDetails = content[0].node
+
+  useEffect(() => {
+    if (1) {
+      if (tOnScreen) tControls.start({ opacity: 1, y: 0 })
+      if (iOnScreen) iControls.start({ opacity: 1, x: 0 })
+    }
+  }, [tControls, iControls, tOnScreen, iOnScreen])
 
   return (
     <StyledSection id="ccoding">
       <StyledContentWrapper>
-        <h3>Creative Coding</h3>
-        <div className="text-content">
-          Một số project nho nhỏ được tớ viết hoặc là thêm thắt, chỉnh sửa từ
-          một số tác giả khác nhằm mục đích chính là phô diễn một kĩ thuật hoặc
-          hiệu ứng nào đó, hay đơn giản là code cho vui để giết thời gian trong
-          lúc rảnh rỗi thôi chứ không có gì đặc biệt hê hê.
+        <h3 className="fixspace">Creative Coding</h3>
+        <div className="descrip">
+          <motion.div
+            className="inner-wrapper"
+            ref={tRef}
+            initial={{ opacity: 0, y: 40 }}
+            animate={tControls}
+            transition={{ duration: 0.8 }}
+          >
+            {/* <h3 className="section-title">{frontmatter.title}</h3> */}
+            <div className="text-content">
+              <MDXRenderer>{body}</MDXRenderer>
+            </div>
+          </motion.div>
+          <motion.div
+            className="image-content"
+            ref={iRef}
+            initial={{ opacity: 0, x: 40 }}
+            animate={iControls}
+            transition={{ duration: 0.5 }}
+          >
+            <Img
+              className="about-author"
+              fluid={frontmatter.image.childImageSharp.fluid}
+            />
+          </motion.div>
         </div>
         {creativecoding.allCreativecodingJson.edges.map(({ node }) => (
           <div key={node.id}>
@@ -104,7 +185,7 @@ const CreativeCoding = () => {
         variants={bVariants}
         animate={bOnScreen ? "visible" : "hidden"}
         className="cta-btn"
-        href="https://facebook.com"
+        href="https://codepen.io/meokisama"
         target="_blank"
         rel="nofollow noopener noreferrer"
         aria-label="External Link"

@@ -44,7 +44,7 @@ const IndexPage = ({ data }) => {
         <About content={data.about.edges} />
         <Interests content={data.interests.edges} />
         <Projects content={data.projects.edges} />
-        <CreativeCoding />
+        <CreativeCoding content={data.ccoding.edges} />
         <Contact content={data.contact.edges} />
       </Layout>
     </GlobalStateProvider>
@@ -91,6 +91,25 @@ export const pageQuery = graphql`
       }
     }
     about: allMdx(filter: { fileAbsolutePath: { regex: "/index/about/" } }) {
+      edges {
+        node {
+          body
+          frontmatter {
+            title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 400, quality: 90) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    ccoding: allMdx(
+      filter: { fileAbsolutePath: { regex: "/index/ccoding/" } }
+    ) {
       edges {
         node {
           body
