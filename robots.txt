@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://meokisama.github.io/sitemap.xml
-Host: https://meokisama.github.io
+Sitemap: https://meoki.net/sitemap.xml
+Host: https://meoki.net
