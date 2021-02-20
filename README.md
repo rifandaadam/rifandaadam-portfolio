@@ -32,9 +32,8 @@ If you want to use this as your personal blog/portfolio, I will show you how. Ok
 
 ## Demo
 
-<p align="center"> <a href="https://meokisama.github.io/"><strong> CLICK HERE </strong></a></p>
+<p align="center"> <a href="https://meoki.net/"><strong> CLICK HERE </strong></a></p>
 
-<p align="center"> <img src="screenshot.png" width="600" /> </p>
 
 ## Sections
 
