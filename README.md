@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://meokisama.github.io">
+  <a href="https://meoki.net">
     <img src="content/favicon.png" />
   </a>
 </p>
@@ -33,7 +33,6 @@ If you want to use this as your personal blog/portfolio, I will show you how. Ok
 ## Demo
 
 <p align="center"> <a href="https://meoki.net/"><strong> CLICK HERE </strong></a></p>
-
 
 ## Sections
 
@@ -166,7 +165,7 @@ If you want to add your own custom sections, there is a section template you can
 
 <a href="https://facebook.com/slytherinnn/"><img align="left" width="150" height="150" src="https://github.com/meokisama/meokisama/blob/master/image/2750554.png"> </a>
 
-- Information in public on <a href="https://meokisama.github.io/">**Blog**</a> ✍🏾
+- Information in public on <a href="https://meoki.net/">**Blog**</a> ✍🏾
 - Sharing updates on <a href="https://facebook.com/slytherinnn/">**Facebook**</a> 💼
 - Other products on <a href="https://www.behance.net/meokisama">**Behance**</a> 🏓
 - Daily photos on <a href="https://www.instagram.com/hi.im.meoki/">**Instagram**</a> 📷
