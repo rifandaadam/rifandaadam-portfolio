@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Gatsby Portfolio Minimal",
   siteShortTitle: "meoki.", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+    "Hi, tớ là Sáng, một tên wibu vui vẻ đến từ Việt Nam, và đây là portfolio của tớ.",
   siteUrl: "https://meoki.net",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
