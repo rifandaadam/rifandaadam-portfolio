@@ -8,7 +8,7 @@ module.exports = {
   siteUrl: "https://meoki.net",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "A devotee of Japanese culture", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Corner of a devotee of Japanese culture", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
