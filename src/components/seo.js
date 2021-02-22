@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import ogImgDefault from "../images/portfolio.png"
 
 import { lightTheme } from "../styles/theme"
 
@@ -45,6 +46,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: `https://meoki.net/${ogImgDefault}`,
         },
         {
           property: `og:type`,
