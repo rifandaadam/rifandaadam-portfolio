@@ -20,9 +20,9 @@
 
 ## About
 
-A revolution in UI upgraded for my blog. I choose a minimal design, simple but very awesome.
+A minimal design, simple but very awesome.
 
-If you want to use this as your personal blog/portfolio, I will show you how. Ok let's start!
+Thanks to [Konstantin Münster](https://github.com/konstantinmuenster) for the starter.
 
 ## Menu
 
