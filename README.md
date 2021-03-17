@@ -24,16 +24,6 @@ A minimal design, simple but very awesome.
 
 Thanks to [Konstantin Münster](https://github.com/konstantinmuenster) for the starter.
 
-## Menu
-
-<a href="#sections">Sections</a> · <a href="#features">Features</a> · <a href="#how-to-start">How to Start</a> · <a href="#edit-content">Edit Content</a> · <a href="#edit-theme">Edit Theme</a> · <a href="#edit-page-structure">Edit Page Structure</a>
-
-**New Features:** 🌛 Dark Mode · 🪟 Splash Screen
-
-## Demo
-
-<p align="center"> <a href="https://meoki.net/"><strong> CLICK HERE </strong></a></p>
-
 ## Sections
 
 The starter has predefined sections as well as a template that you can use to create new, custom sections.
@@ -44,11 +34,12 @@ The starter has predefined sections as well as a template that you can use to cr
 2. Interests/Skills
 3. Projects
 4. Contact me
-5. Medium articles
+5. RSS Feed articles
+6. Codepen.io pens
 
 ## Features
 
-#### 🌛 [NEW] Dark Mode - Based on user's preferences.
+#### 🌛 Dark Mode - Based on user's preferences.
 
 If the user's OS is set to using dark mode, the Gatsby Starter will automatically switch to a dark theme too.
 
