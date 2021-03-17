@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center"> Sáng's Minimal Portfolio </h1>
+<h1 align="center"> Meoki The Minimal Portfolio </h1>
 
 <h3 align="center"> A modern one-page portfolio with a clean yet expressive design. </h3>
 
