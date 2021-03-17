@@ -181,7 +181,7 @@ See `LICENSE` for more information.
 
 #### [Version 1.3.0] - 17/2/2021
 
-- Add __Creative Coding__ section _(To show pens you made on Codepen)_
+- Add __Creative Coding__ section _(To show pens you made on [codepen.io](https://codepen.io/))_
 
 #### [Version 1.2.2] - 6/1/2021
 
