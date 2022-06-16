@@ -73,7 +73,6 @@ With Portfolio Minimal, you get up and running in just a few minutes.
 
    ```
    npm install -g gatsby-cli
-
    ```
 
 2. **Create a new Gatsby site with the Portfolio Minimal starter.**
