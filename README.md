@@ -96,7 +96,7 @@ With Portfolio Minimal, you get up and running in just a few minutes.
 
 5. **Open the source code and start editing!**
 
-   Good luck!
+   Good luck...
 
 ## Edit Content
 
