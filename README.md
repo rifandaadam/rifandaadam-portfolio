@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://meoki.net">
+  <a href="https://meoki.vn">
     <img src="content/favicon.png" />
   </a>
 </p>
@@ -151,15 +151,15 @@ Each section (besides the Articles section) exists of an imported React componen
 
 If you want to add your own custom sections, there is a section template you can use. You can find it in the following directory: `src/components/templates`
 
-## Find me around the web 🌎:
+## Find me around the web 🌎
 
 <a href="https://facebook.com/slytherinnn/"><img align="left" width="150" height="150" src="https://github.com/meokisama/meokisama/blob/master/image/2750554.png"> </a>
 
-- Information in public on <a href="https://meoki.net/">**Blog**</a> ✍🏾
+- Information in public on <a href="https://meoki.vn/">**Blog**</a> ✍🏾
 - Sharing updates on <a href="https://facebook.com/slytherinnn/">**Facebook**</a> 💼
 - Other products on <a href="https://www.behance.net/meokisama">**Behance**</a> 🏓
 - Daily photos on <a href="https://www.instagram.com/hi.im.meoki/">**Instagram**</a> 📷
-- "Wibu" collection on <a href="https://www.flickr.com/photos/meokisama/albums">**Flickr**</a> 👾\
+- "Wibu" collection on <a href="https://www.flickr.com/photos/meokisama/albums">**Flickr**</a> 👾
 
 ## License
 
