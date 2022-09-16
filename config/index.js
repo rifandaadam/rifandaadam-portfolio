@@ -2,10 +2,10 @@ module.exports = {
   //-- SITE SETTINGS -----
   author: "@meoki",
   siteTitle: "Gatsby Portfolio Minimal",
-  siteShortTitle: "meoki.", // Used as logo text in header, footer, and splash screen
+  siteShortTitle: "rifandaadam", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "Hi, tớ là Sáng, người ta còn gọi là Meoki. Là một tên wibu vui vẻ đến từ Việt Nam, và cũng là một Cyber Security Engineer. Còn đây là portfolio của tớ, take a look!",
-  siteUrl: "https://meoki.net",
+    "Hi, I'm Adam Muhammad, also known as @rifandaadam. Here is my portfolio, take a look!",
+  siteUrl: "https://rifandaadam.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Corner of a devotee of Japanese culture", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
@@ -60,19 +60,19 @@ module.exports = {
   socialMedia: [
     {
       name: "Facebook",
-      url: "https://www.facebook.com/slytherinnn",
+      url: "https://www.facebook.com/",
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/meokiiii",
+      url: "https://twitter.com/rifandaadam",
     },
     {
       name: "Github",
-      url: "https://github.com/meokisama",
+      url: "https://github.com/rifandaadam",
     },
     {
       name: "Behance",
-      url: "https://www.behance.net/meokisama",
+      url: "https://www.behance.net/a",
     },
   ],
 
