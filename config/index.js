@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Gatsby Portfolio Minimal",
   siteShortTitle: "rifandaadam", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "Hi, I'm Adam Muhammad, also known as @rifandaadam. Here is my portfolio, take a look!",
+    "Hello, I'm Adam Muhammad, also known as Rifandaadam. Here is my portfolio, take a look!",
   siteUrl: "https://rifandaadam.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
