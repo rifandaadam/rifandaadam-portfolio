@@ -39,11 +39,11 @@ const IndexPage = ({ data }) => {
         />
         <Hero content={data.hero.edges} />
         {/* Articles is populated via Medium RSS Feed fetch */}
-        <Articles />
-        <Techside />
+        <!--<Articles />
+        <Techside />-->
         <About content={data.about.edges} />
         <Interests content={data.interests.edges} />
-        <Projects content={data.projects.edges} />
+        <!--<Projects content={data.projects.edges} />-->
         <CreativeCoding content={data.ccoding.edges} />
         <Contact content={data.contact.edges} />
       </Layout>
@@ -150,38 +150,38 @@ export const pageQuery = graphql`
         }
       }
     }
-    projects: allMdx(
-      filter: {
-        fileAbsolutePath: { regex: "/index/projects/" }
-        frontmatter: { visible: { eq: true } }
-      }
-      sort: { fields: [frontmatter___position], order: ASC }
-    ) {
-      edges {
-        node {
-          body
-          frontmatter {
-            title
-            category
-            emoji
-            external
-            github
-            screenshot {
-              childImageSharp {
-                fluid(maxWidth: 400, quality: 90) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            tags
-            position
-            buttonVisible
-            buttonUrl
-            buttonText
-          }
-        }
-      }
-    }
+    //projects: allMdx(
+      //filter: {
+       // fileAbsolutePath: { regex: "/index/projects/" }
+      //  frontmatter: { visible: { eq: true } }
+    //  }
+    //  sort: { fields: [frontmatter___position], order: ASC }
+   // ) {
+   //   edges {
+    //    node {
+     //     body
+       //   frontmatter {
+      //      title
+       //     category
+       //     emoji
+       //     external
+       //     github
+        //    screenshot {
+        //      childImageSharp {
+         //       fluid(maxWidth: 400, quality: 90) {
+        //          ...GatsbyImageSharpFluid
+        //        }
+        //      }
+       //     }
+      //      tags
+      //      position
+      //      buttonVisible
+       //     buttonUrl
+        //    buttonText
+      //    }
+     //   }
+   //   }
+ //   }
     contact: allMdx(
       filter: { fileAbsolutePath: { regex: "/index/contact/" } }
     ) {
